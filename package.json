@@ -1,0 +1,32 @@
+{
+	"name": "redisapp",
+	"version": "1.0.0",
+	"description": "redis app caching and others",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vinodkottem/redis.git"
+	},
+	"keywords": [
+	             "node",
+	             "redis",
+	             "data",
+	             "cache",
+	             "session"
+	             ],
+	             "author": "vinod kottem",
+	             "license": "ISC",
+	             "bugs": {
+	            	 "url": "https://github.com/vinodkottem/redis/issues"
+	             },
+	             "homepage": "https://github.com/vinodkottem/redis",
+	             "dependencies": {
+	            	 "express": "^4.15.2",
+	            	 "redis": "^2.7.1",
+	            	 "superagent": "^3.5.2"
+	             }
+}
